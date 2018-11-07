@@ -1,0 +1,13 @@
+CREATE TABLE user (
+  id INT NOT NULL AUTO_INCREMENT,
+  firstname VARCHAR(100) NOT NULL,
+  lastname VARCHAR(100) NOT NULL,
+  insert_ts DATE,
+  PRIMARY KEY ( id )
+);
+
+CREATE TABLE lawyer (
+  id INT NOT NULL AUTO_INCREMENT,
+  pec VARCHAR(256),
+  PRIMARY KEY ( id )
+);
